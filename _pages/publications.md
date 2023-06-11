@@ -23,7 +23,7 @@ permalink: /publications/
 <div class="row">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
+<!-- <div class="col-sm-6 clearfix">
  <div class="well">
   <pubtit>{{ publi.title }}</pubtit>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
@@ -33,7 +33,7 @@ permalink: /publications/
   <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
   <p> {{ publi.news2 }}</p>
  </div>
-</div>
+</div> -->
 
 {% assign number_printed = number_printed | plus: 1 %}
 
